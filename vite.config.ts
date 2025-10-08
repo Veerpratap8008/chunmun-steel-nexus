@@ -16,4 +16,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
   base: "./", // 👈 critical for GitHub Pages deployment
+  base: "/chunmun-steel-nexus/",
 }));
