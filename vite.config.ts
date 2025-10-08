@@ -15,6 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "./", // 👈 critical for GitHub Pages deployment
-  base: "/chunmun-steel-nexus/",
+  base: "/chunmun-steel-nexus/", // 👈 CRUCIAL for GitHub Pages subpath
 }));
